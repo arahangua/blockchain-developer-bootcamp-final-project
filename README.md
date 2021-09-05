@@ -8,7 +8,7 @@ Market adoption of Real-time data analysis is hindered by :
 ### Solution:
 Implement a blockchain real-time data analysis pipeline to get summary statistics with timestamps.
 
-**Healthcare example** : Smart sensors recording cardiac signals of a patient (e.g. apple watch or similar device in near future) will be sending out personal information (privacy concern), this signal must be tracked for an indefinite amount of time to detect anomalies (e.g. arrhythmia) and must be processed in real-time to come up with an action within critical time window (real-time processing).
+**Healthcare example** : Smart sensors recording cardiac signals of a patient (e.g. apple watch or similar device in near future) will be sending out personal information (privacy sensitive), this signal must be tracked for an indefinite amount of time to detect anomalies (e.g. arrhythmia) and must be processed in real-time to come up with an action within critical time window (real-time processing).
 
 ## Project idea (WIP) : 
 Implement Pubsub data acquisition flow on the blockchain.
