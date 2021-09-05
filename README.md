@@ -16,7 +16,7 @@ Implement Pubsub data acquisition flow on the blockchain.
 ### points to consider 
 1. Assume continuous dataflow from users (e.g. smart watches) 
 2. Assume credibility for 1) is already taken care of... (e.g. hardware oracle etc..) 
-3. Using arbitrary discrete time window, chunk the dataflow
+3. Using arbitrary discrete time window, chunk the data
 4. For each chunk, compute a simple summary stat (e.g. correlation coef...)
 5. Concatenate meta data (e.g. timestamps) to 4)
 6. Store computed result from 5) to storage (local, IPFS...)
