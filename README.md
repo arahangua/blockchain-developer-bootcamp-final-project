@@ -5,7 +5,7 @@
 Market adoption of Real-time data analysis is hindered by : 
 1) Data size : storing multidimensional real-time data can easily get out of control even for enterprises (>Terabytes).
 2) Privacy concern : subset of real-time data out there is privacy-sensitive. 
-###Solution:
+### Solution:
 Implement a blockchain real-time data analysis pipeline to get summary statistics with time tags.
 
 **Healthcare example** : Smart sensors recording cardiac signals of a patient (e.g. apple watch or similar device in near future) will be sending out personal information (privacy concern), this signal must be tracked for an indefinite amount of time to detect anomalies (e.g. arrhythmia) and must be processed real-time to act within effective time window (real-time processing).
