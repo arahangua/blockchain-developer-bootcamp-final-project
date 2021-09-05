@@ -24,6 +24,5 @@ Implement Pubsub data acquisition flow on the blockchain.
 5. Concatenate meta data (e.g. timestamps) to 4)
 6. Store computed result from 5) to storage (local, IPFS...)
 7. Register hash of the computed result (5,6) to the blockchain
-------------------- tentative end of the project ------------------------
 
- (if time allows) 8. Implement loading of previously computed results to generate time-series for downstream analysis. 
+(if time allows) 8. Implement loading of previously computed results to generate time-series for downstream analysis. 
