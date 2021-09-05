@@ -1,7 +1,7 @@
 # blockchain-developer-bootcamp-final-project
 final project for Consensys blockchain developer bootcamp 2021
 
-# Foundation for Real-time data analysis on Blockchain. 
+# Foundation for Real-time data analysis on Blockchain 
 
 ## Background
 ### Problem : 
