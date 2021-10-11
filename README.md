@@ -4,7 +4,7 @@
 
 ## Background
 ### Problem : 
-There's a rule of thumb in the world of entrepreneurship : if someone wants to check whether his/her idea is market-viable, ask around and get at least 100 people who like the idea (who would pay something). If there are more than 100 people, then we are good to go :)
+There's a rule of thumb in the world of entrepreneurship : if someone wants to check whether his/her idea is market-viable, simply ask around and get at least 100 people who like the idea (who would pay something). If there are more than 100 people, then we are good to go :)
 
 Already SNS services are great channels to do this quick surveying, however, from a long-term perspective, it is important to get on-going feedback cycle. (from potential customers to the entrepreneur and the other way around) 
 
