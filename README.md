@@ -1,5 +1,6 @@
 
-# getting 100 consent for the project proposal (revised + toned down from the initial realtime data analysis idea) 
+# Project proposal evaluation / survey Dapp  
+(very basic DAO like idea...) 
 
 ## Background
 ### Problem : 
@@ -11,7 +12,7 @@ Already SNS services are great channels to do this quick surveying, however, fro
 Blockchain voting or DAO system in general provides an ideal environment for both parties. "Proposal appraisal" Dapp would be interesting.
 
 ## Project idea (WIP) : 
-Implement proposal appraisal service. 
+Implement proposal appraisal dapp service with 1)  
 
 ### points to consider 
 1. Assume that we already have bustling community (n of participants > 300)
@@ -19,4 +20,5 @@ Implement proposal appraisal service.
 3. Participant can give one of 3 answers to a proposal : 1) I like it 2) No, not a good idea 3) I don't quite understand the proposal
 4. If the proposal gets more than 100 1) "likes" then it is accepted
 5. When the proposal is accepted, those who voted for "like" and proposer get "matched" (they get introduced into their own communication channel)
+6. Proposer also gets the result e.g. # of likes / 300 participants
 
