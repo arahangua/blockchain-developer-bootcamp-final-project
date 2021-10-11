@@ -1,5 +1,5 @@
 
-# Project proposal evaluation / survey Dapp  
+# Project proposal evaluation / survey contract
 (very basic DAO like idea...) 
 
 ## Background
@@ -9,7 +9,7 @@ There's a rule of thumb in the world of entrepreneurship : if someone wants to c
 Already SNS services are great channels to do this quick surveying, however, from a long-term perspective, it is important to get on-going feedback cycle. (from potential customers to the entrepreneur and the other way around) 
 
 ### Solution:
-Blockchain voting or DAO system in general provides an ideal environment for this. "Proposal appraisal" Dapp to create "feedback-communities" would be interesting.
+Blockchain voting or DAO system in general provides an ideal environment for this. "Proposal appraisal" contract that can both evaluate the proposal and create feedback community would be interesting.
 
 ## Project idea (WIP) : 
 Implement proposal appraisal dapp service with 1)  
