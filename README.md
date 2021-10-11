@@ -1,25 +1,22 @@
-# Foundation for Real-time data analysis on Blockchain 
+
+# getting 100 consent for the project proposal (revised + toned down from the initial realtime data analysis idea) 
 
 ## Background
 ### Problem : 
-Market adoption of Real-time data analysis is hindered by : 
-1) Data size : storing multidimensional real-time data can easily get out of control even for enterprises (>Terabytes).
-2) Privacy concern : subset of real-time data out there is privacy-sensitive. 
-### Solution:
-Implement a blockchain real-time data analysis pipeline to get summary statistics with timestamps.
+There's a rule of thumb in the world of entrepreneurship : if someone wants to check whether his/her idea is market-viable, ask around and get at least 100 people who like the idea (who would pay something). If there are more than 100 people, then we are good to go :)
 
-**Healthcare example** : Smart sensors recording cardiac signals of a patient (e.g. apple watch or similar device in near future) will be sending out personal information (privacy sensitive), this signal must be tracked for an indefinite amount of time to detect anomalies (e.g. arrhythmia) and must be processed in real-time to come up with an action within critical time window (real-time processing).
+Already SNS services are great channels to do this quick surveying, however, from a long-term perspective, it is important to get on-going feedback cycle. (from potential customers to the entrepreneur and the other way around) 
+
+### Solution:
+Blockchain voting or DAO system in general provides an ideal environment for both parties. "Proposal appraisal" Dapp would be interesting.
 
 ## Project idea (WIP) : 
-Implement Pubsub data acquisition flow on the blockchain.
+Implement proposal appraisal service. 
 
 ### points to consider 
-1. Assume continuous dataflow from users (e.g. smart watches) 
-2. Assume credibility for 1) is already taken care of... (e.g. hardware oracle etc..) 
-3. Using arbitrary discrete time window, chunk the data
-4. For each chunk, compute simple summary stats (e.g. correlation coef...)
-5. Concatenate meta data (e.g. timestamps) to 4)
-6. Store computed result from 5) to storage (local, IPFS...)
-7. Register hash of the computed result (5,6) to the blockchain
+1. Assume that we already have bustling community (n of participants > 300)
+2. Participants get randomly introduced to existing proposals
+3. Participant can give one of 3 answers to a proposal : 1) I like it 2) No, not a good idea 3) I don't quite understand the proposal
+4. If the proposal gets more than 100 1) "likes" then it is accepted
+5. When the proposal is accepted, those who voted for "like" and proposer get "matched" (they get introduced into their own communication channel)
 
-(if time allows) 8. Implement loading of previously computed results to generate time-series for downstream analysis. 
