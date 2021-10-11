@@ -1,0 +1,69 @@
+
+1. proposal variable
+mapping variable that stores multiple proposals 
+uint proposal_id --> returns struct 
+
+struct stores 
+1) # of likes, dislikes, undecided (integers)
+2) mapping variable storing address --> vote decision 
+3) timestamp of proposal suggestion (initial submission)
+4) mapping variable storing address --> voted timestamp
+5) owner address
+6) owner address + addresses of participants who liked the proposal 
+7) URL of some community webspace
+8) Addresses of eligible voters
+9) Proposal (text) 
+
+
+
+3. functions
+
+// 1. need to register random sampled 300 (or 30, downscaled) addresses as active potential voters
+
+function registerVoter(proposal_id){
+
+} 
+
+function castVote(){
+
+}
+
+function checkVotingStatus(){
+//checks how many votes were collected and how many likes did the proposal get
+}
+
+function endVoting(){
+ //sends out results and URL of new community space
+}
+
+function forceEndVoting(){
+    //sends out result because of the timeout
+}
+
+
+// need to make modifiers to check eligibility of participants
+
+modifier isValidVoter(){
+
+} 
+
+modifier hasVoted(){
+    //trivial....
+}
+
+modifier isVotingOngoing(){
+
+}
+
+modifier isTimeout(){
+
+}
+
+
+
+// events 
+
+event loghasVoted(address)
+event logVotingstarted()
+event logVotingended()
+event logVotingresult()
