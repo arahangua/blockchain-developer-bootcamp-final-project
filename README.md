@@ -12,7 +12,9 @@ Already SNS services are great channels to do this quick surveying, however, fro
 Blockchain voting or DAO system in general provides an ideal environment for this. "Proposal appraisal" contract that can both evaluate the proposal and create feedback community would be interesting.
 
 ## Project idea (WIP) : 
-Implement proposal appraisal dapp service with 1)  
+Implement proposal appraisal contact that:
+1) Give project proposer the survey result
+2) Match project proposer with participants who liked the idea   
 
 ### points to consider 
 1. Assume that we already have bustling community (n of participants > 300)
