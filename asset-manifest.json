@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/blockchain-developer-bootcamp-final-project/static/css/main.4e957331.chunk.css",
+    "main.js": "/blockchain-developer-bootcamp-final-project/static/js/main.b58c8bd6.chunk.js",
+    "main.js.map": "/blockchain-developer-bootcamp-final-project/static/js/main.b58c8bd6.chunk.js.map",
+    "runtime-main.js": "/blockchain-developer-bootcamp-final-project/static/js/runtime-main.7e521392.js",
+    "runtime-main.js.map": "/blockchain-developer-bootcamp-final-project/static/js/runtime-main.7e521392.js.map",
+    "static/js/2.247b9a16.chunk.js": "/blockchain-developer-bootcamp-final-project/static/js/2.247b9a16.chunk.js",
+    "static/js/2.247b9a16.chunk.js.map": "/blockchain-developer-bootcamp-final-project/static/js/2.247b9a16.chunk.js.map",
+    "static/js/3.f5cc348b.chunk.js": "/blockchain-developer-bootcamp-final-project/static/js/3.f5cc348b.chunk.js",
+    "static/js/3.f5cc348b.chunk.js.map": "/blockchain-developer-bootcamp-final-project/static/js/3.f5cc348b.chunk.js.map",
+    "static/js/4.68ec6be1.chunk.js": "/blockchain-developer-bootcamp-final-project/static/js/4.68ec6be1.chunk.js",
+    "static/js/4.68ec6be1.chunk.js.map": "/blockchain-developer-bootcamp-final-project/static/js/4.68ec6be1.chunk.js.map",
+    "static/js/5.8f6e71ed.chunk.js": "/blockchain-developer-bootcamp-final-project/static/js/5.8f6e71ed.chunk.js",
+    "static/js/5.8f6e71ed.chunk.js.map": "/blockchain-developer-bootcamp-final-project/static/js/5.8f6e71ed.chunk.js.map",
+    "index.html": "/blockchain-developer-bootcamp-final-project/index.html",
+    "precache-manifest.35ec5b41fb5a8e754c3ac7e0c6d797c5.js": "/blockchain-developer-bootcamp-final-project/precache-manifest.35ec5b41fb5a8e754c3ac7e0c6d797c5.js",
+    "service-worker.js": "/blockchain-developer-bootcamp-final-project/service-worker.js",
+    "static/css/main.4e957331.chunk.css.map": "/blockchain-developer-bootcamp-final-project/static/css/main.4e957331.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7e521392.js",
+    "static/js/2.247b9a16.chunk.js",
+    "static/css/main.4e957331.chunk.css",
+    "static/js/main.b58c8bd6.chunk.js"
+  ]
+}
