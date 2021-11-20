@@ -60,7 +60,6 @@ export default function Navbar({account,result}) {
             open={Boolean(anchorEl)}
             onClose={handleClose}
           >
-            <MenuItem>Owner Name: arahangua</MenuItem>
             <MenuItem>Address: {account}</MenuItem>
           </Menu>
         </Toolbar>

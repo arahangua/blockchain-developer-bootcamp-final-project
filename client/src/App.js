@@ -230,6 +230,7 @@ const App = () => {
         </div>
         <div className="do_vote">
           <h3>Select a project and click the "VOTE" button</h3>
+          <h3>1 : like, 0 : unsure, -1 : dislike </h3>
         </div>
         <div className="input_id">
           <FormControl className={classes.formControl}>

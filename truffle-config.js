@@ -1,4 +1,6 @@
 const path = require("path");
+const HDWalletProvider = require('@truffle/hdwallet-provider');
+require('dotenv').config();
 
 module.exports = {
   // See <http://truffleframework.com/docs/advanced/configuration>
@@ -14,6 +16,13 @@ module.exports = {
       host: "localhost",
       port: 8545,
       network_id: "*" // match any network
+    },
+    ropsten:{
+      timeoutBlocks: 200000,
+      networkCheckTimeout: 10000, 
+      provider: () => new HDWalletProvider(process.env.SEED_PHRASE, process.env.Ropsten_RPC_URL),
+      network_id: 3,
+      skipDryRun: true
     }
 
   },
