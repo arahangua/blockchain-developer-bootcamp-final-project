@@ -1,0 +1,4 @@
+
+SEED_PHRASE = 'Your seed phrase'
+Ropsten_RPC_URL = 'https://ropsten.infura.io/v3/your_api_key'
+
