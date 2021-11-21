@@ -25,9 +25,9 @@ This project is currently deployed to Ropsten network (please check 'deployed_ad
 ### testing / running the project
 1. git clone this project
 2. (Smart contract) from the root of this project, type
-
+    '''
     npm install
- 
+    ''' 
 3. (frontend) move to the 'client' directory and run install command
 
     cd client
