@@ -47,7 +47,7 @@ This project is currently deployed to Ropsten network (please check 'deployed_ad
 
 
 ## Acknowledgement
-For the front-end design : https://github.com/bukosabino/truffle-voting-dapp
+Built on top of the front-end design of : https://github.com/bukosabino/truffle-voting-dapp
 
 For the general project structure : https://github.com/francisldn/blockchain-developer-bootcamp-final-project
 
