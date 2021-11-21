@@ -1,10 +1,10 @@
 # Voting / Project Proposal Dapp   
-long-term vision is to build an analysis pipeline that can characterize the consensus behavior of the community by treating each person's voting history as time-series data (e.g. simply computing covariance matrix)
+Currently, this project is a very simple voting / project proposal dapp with barebone functionalities implemented. The long-term vision is to build an analysis pipeline that can characterize the consensus behavior of the community by treating each person's voting history as time-series data (e.g. with enough voting history accumulated, computing covariance matrix between users' voting history)
 
 ## Implemented features
 1. Users can propose projects (in text) (there is a limit for the number of projects that can be proposed per person)
-2. Users can only vote once per suggested project
-3. For each vote, users can cast 3 options : Like, dislike, indifferent (unsure, e.g. didn't get the proposal)
+2. Users can only vote once for each suggested project
+3. For each vote, users can cast 3 options : 1. Like, 2. dislike, 3. indifferent/unsure (e.g. didn't understand the proposal)
 4. The owner of the contract can change the limit for per-person proposable number of projects.
 
 ## Where is it currently deployed?
