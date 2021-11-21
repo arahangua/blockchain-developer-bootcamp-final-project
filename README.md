@@ -1,5 +1,4 @@
 # Voting / Project Proposal Dapp   
-(very toned-down implementation of the initial idea...) 
 long-term vision is to build an analysis pipeline that can characterize the consensus behavior of the community by treating each person's voting history as time-series data (e.g. simply computing covariance matrix)
 
 ## Implemented features
