@@ -9,14 +9,22 @@ contract("Voting", async accounts => {
     const instance = await Voting.deployed();
     const result = await instance.get_proposal_limit.call({from: accounts[0]});
     const result_num = result.toNumber();
-    assert.equal(result_num, 3);
+    assert.equal(result_num, 3, 'something went wrong with the initialization of the upper limit (per-person proposals)');
   });
   
   it("should return 0 for the number of existing projects", async () => {
     const instance = await Voting.deployed();
     const result = await instance.get_project_num.call({from: accounts[0]});
     const result_num = result.toNumber();
-    assert.equal(result_num, 0);
+    assert.equal(result_num, 0, 'something went wrong with the initialization of the variable storing the number of existing projects');
+  });
+
+  it("should return 1 for the number of existing projects once a project is added", async () => {
+    const instance = await Voting.deployed();
+    await instance.add_project("testing",{from:accounts[0]});
+    const result = await instance.get_project_num.call({from: accounts[0]});
+    const result_num = result.toNumber();
+    assert.equal(result_num, 1, 'the number of existing projects did not show a proper increment');
   });
 
   it("Owner should be able to change the per person number of proposals", async () => {

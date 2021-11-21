@@ -99,10 +99,10 @@ contract Voting is ReentrancyGuard{
     //functions
     ///@notice main function to add project / proposal 
     ///@param description string input to describe the project / proposal
-    function add_project(string memory description) public less_than_limit(msg.sender) {
+    function add_project(string memory description) public less_than_limit(msg.sender) nonReentrant{
         Projects[Project_num] = Project(description, 0,0,0,0); 
         emit registered_project(Project_num, description, 0,0,0,0);
-        Project_num ++; //increment by 1
+        Project_num++; //increment by 1
         emit increased_proj_num(Project_num);
         Proposed[msg.sender]++;
         emit increased_proj_proposed(Proposed[msg.sender]);
@@ -110,7 +110,7 @@ contract Voting is ReentrancyGuard{
     }
     ///@notice main function to cast a vote
     ///@param proj_id project id and @param vote_value vote values (1: like, 0 : indifferent, -1 : dislike) 
-    function vote(uint256 proj_id, int256 vote_value) public existing_proj(proj_id) not_voted_for(proj_id){
+    function vote(uint256 proj_id, int256 vote_value) public existing_proj(proj_id) not_voted_for(proj_id) nonReentrant{
         Proj_to_voted[proj_id][msg.sender] = true;
         emit logging_vote(proj_id, msg.sender);
         Projects[proj_id].total_votes++;
