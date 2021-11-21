@@ -25,15 +25,22 @@ This project is currently deployed to Ropsten network (please check 'deployed_ad
 ### testing / running the project
 1. git clone this project
 2. (Smart contract) from the root of this project, type
-    npm install 
+'''
+    npm install
+''' 
 3. (frontend) move to the 'client' directory and run install command
+'''
     cd client
     npm install
+'''
 4. open a new terminal and spin up ganache (local ganache blockchain should use the port : 8545)
+'''
     ganache-cli
+'''
 4. To run the test script, move back to the root of the project and type
+'''
     truffle test
-
+'''
 
 ## screencast 
     pending 
