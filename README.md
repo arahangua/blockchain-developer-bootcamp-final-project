@@ -53,9 +53,9 @@ This project follows the default truffle project directory structure (the projec
 
 5. (for local deployment and frontend testing):
 open a terminal and start ganache :
-'''
+```
 ganache-cli 
-'''
+```
 in a separate terminal, deploy contracts to the local network (ganache) : 
 ```
 truffle migrate --network local 
