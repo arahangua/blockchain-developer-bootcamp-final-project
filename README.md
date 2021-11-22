@@ -20,7 +20,6 @@ This project is currently deployed to Ropsten network (please check 'deployed_ad
 2. Install [Truffle suite](https://www.npmjs.com/package/truffle)
 ```
 npm install -g truffle
-
 ```
 3. Install [Ganache-cli](https://www.npmjs.com/package/ganache-cli)
 ```
