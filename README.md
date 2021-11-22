@@ -51,6 +51,23 @@ This project follows default truffle project directory structure (the project wa
 ```
     truffle test
 ```
+
+5. (for local deployment and frontend testing):
+open a terminal and start ganache :
+'''
+ganache-cli 
+
+'''
+in a separate terminal, deploy contracts to the local network (ganache) : 
+```
+truffle migrate --network local 
+```
+in a third terminal, boot up the frontend:
+```
+cd client
+npm start
+```
+
 ## screencast 
 
 [https://www.loom.com/share/1c2e1210ff364b5cae50d9940d7dc658](https://www.loom.com/share/1c2e1210ff364b5cae50d9940d7dc658)
