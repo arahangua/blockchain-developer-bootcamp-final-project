@@ -16449,10 +16449,16 @@
       "links": {},
       "address": "0x49F980bBdFd499435df96804d6B5289EDEeA19Cc",
       "transactionHash": "0x5bf67617dbab69d596a3741ffd8b6e2b2f8aff77576a760026346df55fc2efac"
+    },
+    "1637543706201": {
+      "events": {},
+      "links": {},
+      "address": "0x329bC877E6b721b8b9cF8181ee071d64dad2e8ac",
+      "transactionHash": "0xbb9480ada3aeefe2cdb603676178d647682a18865ee5c63b23ed6ff9ee8547df"
     }
   },
   "schemaVersion": "3.4.3",
-  "updatedAt": "2021-11-22T00:56:35.180Z",
+  "updatedAt": "2021-11-22T01:17:53.661Z",
   "networkType": "ethereum",
   "devdoc": {
     "author": "Taehoon Kim",

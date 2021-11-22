@@ -41,7 +41,8 @@ This project is currently deployed to Ropsten network (please check 'deployed_ad
     truffle test
 ```
 ## screencast 
-    pending 
+
+[https://www.loom.com/share/1c2e1210ff364b5cae50d9940d7dc658](https://www.loom.com/share/1c2e1210ff364b5cae50d9940d7dc658)
 
 
 
