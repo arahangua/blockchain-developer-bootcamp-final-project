@@ -28,12 +28,12 @@ npm install -g ganache-cli
 4. Install [Metamask](https://metamask.io/)
 
 ### short description of directory structure
-This project follows default truffle project directory structure (the project was initialized with "truffle unbox react")
+This project follows the default truffle project directory structure (the project was initialized with the command "truffle unbox react")
 'client' folder has the frontend scripts.
 
 ### testing / running the project
 1. git clone this project
-2. (Smart contract) from the root of this project, type
+2. (Smart contract side) from the root of this project, type
 ```
     npm install
 ```    
@@ -55,13 +55,12 @@ This project follows default truffle project directory structure (the project wa
 open a terminal and start ganache :
 '''
 ganache-cli 
-
 '''
 in a separate terminal, deploy contracts to the local network (ganache) : 
 ```
 truffle migrate --network local 
 ```
-in a third terminal, boot up the frontend:
+open a third terminal, boot up the frontend:
 ```
 cd client
 npm start
