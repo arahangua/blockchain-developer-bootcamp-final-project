@@ -158,22 +158,23 @@ const App = () => {
           let unsur = a.events.registered_project.returnValues.unsure;
           
           setProjects([...Projects, { id: proj_id, description: descrip, total_votes: vot, likes : lik, dislikes : dislik, unsure : unsur }]);
-          let p_p = a.events.increased_proj_proposed.returnValues.proposed_num
+          let p_p = a.events.increased_proj_proposed.returnValues.proposed_num;
           console.log(p_p);
-          setProj_proposed(p_p);
+          setProj_proposed(parseInt(p_p));
           console.log(proj_proposed);
         });
+        var success = 1;
     } catch (err) {
-      if (proj_proposed == num_of_allowed_proj-1) {
-        window.alert("You cannot submit more proposals than the set limit");
-      } else {
-        window.alert("Your are not authorised to perform this action");
-      }
+      var success = 0;
+      window.alert("You cannot submit more proposals than the set limit");
+      
     }
+    if(success){
     console.log(Projects);
     setProjdescription("");
     window.location.reload();
-    //setSubmissionAddress("");
+    
+    };
   };
 
   const givevote = async () => {
@@ -187,11 +188,16 @@ const App = () => {
           let id_returned = a.events.Voted.returnValues.prod_id;
           console.log(id_returned);
         });
-      //setVoted(!voted);
+      var success = 1;
     } catch (err) {
-      window.alert("You have already voted");
+      var success = 0;
+      window.alert("You have already voted!");
+      
     }
+    if(success){
     window.location.reload();
+    }
+    
   };
 
   const changelimit = async () => {
@@ -204,13 +210,16 @@ const App = () => {
         .then((a) => {
           let limit_returned = a.events.changed_proposal_limit.returnValues.limit_val;
           console.log(limit_returned);
-          setNum_of_allowed_proj(limit_returned)
+          setNum_of_allowed_proj(limit_returned);
         });
-      
+      var success=1;
     } catch (err) {
+      var success=0;
       window.alert("You must be the owner of the contract to do this");
     }
+    if(success){
     window.location.reload();
+    };
   };
  
   
