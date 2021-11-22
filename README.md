@@ -21,6 +21,10 @@ This project is currently deployed to Ropsten network (please check 'deployed_ad
 3. Install [Ganache-cli](https://www.npmjs.com/package/ganache-cli)
 4. Install [Metamask](https://metamask.io/)
 
+### short description of directory structure
+This project follows default truffle project directory structure (the project was initialized with "truffle unbox react")
+'client' folder has the frontend scripts.
+
 ### testing / running the project
 1. git clone this project
 2. (Smart contract) from the root of this project, type
