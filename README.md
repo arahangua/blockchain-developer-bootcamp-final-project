@@ -18,7 +18,14 @@ This project is currently deployed to Ropsten network (please check 'deployed_ad
 ### Setting up an environment
 1. Install Node.js, version used in this project = 14.18.1
 2. Install [Truffle suite](https://www.npmjs.com/package/truffle)
+```
+npm install -g truffle
+
+```
 3. Install [Ganache-cli](https://www.npmjs.com/package/ganache-cli)
+```
+npm install -g ganache-cli
+```
 4. Install [Metamask](https://metamask.io/)
 
 ### short description of directory structure
