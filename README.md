@@ -49,6 +49,8 @@ This project follows default truffle project directory structure (the project wa
 [https://www.loom.com/share/1c2e1210ff364b5cae50d9940d7dc658](https://www.loom.com/share/1c2e1210ff364b5cae50d9940d7dc658)
 
 
+## Ethereum mainnet address
+0x564Eeb6D153178439C8506416b5Fc439CCb62637
 
 
 ## Acknowledgement
