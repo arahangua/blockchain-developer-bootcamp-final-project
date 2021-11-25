@@ -54,7 +54,9 @@ const App = () => {
   const [projdescription, setProjdescription] = useState("");
   const [num_of_allowed_proj, setNum_of_allowed_proj] = useState(0);
   const [proj_proposed, setProj_proposed] = useState();
+  const [connected, setconnected] = useState(0);
 
+  
   //loading web3 
   const loadWeb3 = async () =>{
     if (window.ethereum){
@@ -137,7 +139,9 @@ const App = () => {
       window.ethereum.on('accountsChanged', () => {
         window.location.reload();
       })
-  
+      window.ethereum.on('connect', () => {
+        setconnected(1);
+      })
       
         
     }
@@ -170,8 +174,13 @@ const App = () => {
         var success = 1;
     } catch (err) {
       var success = 0;
-      window.alert("You cannot submit more proposals than the set limit");
-      
+      var accounts = await window.web3.eth.getAccounts();
+
+      if(accounts.length>0){
+        window.alert("You cannot submit more proposals than the set limit");
+      }else{
+       window.alert("Ethereum account not connected! please connect");
+      }
     }
     if(success){
     console.log(Projects);
@@ -195,8 +204,13 @@ const App = () => {
       var success = 1;
     } catch (err) {
       var success = 0;
-      window.alert("You have already voted!");
-      
+      var accounts = await window.web3.eth.getAccounts();
+
+      if(accounts.length>0){
+        window.alert("You have already voted!");
+      }else{
+        window.alert("Ethereum account not connected! please connect");
+      }
     }
     if(success){
     window.location.reload();
@@ -219,7 +233,14 @@ const App = () => {
       var success=1;
     } catch (err) {
       var success=0;
-      window.alert("You must be the owner of the contract to do this");
+      var accounts = await window.web3.eth.getAccounts();
+
+      if(accounts.length>0){
+        window.alert("You must be the owner of the contract to do this");
+      }else{
+        window.alert("Ethereum account not connected! please connect");
+      }
+      
     }
     if(success){
     window.location.reload();
