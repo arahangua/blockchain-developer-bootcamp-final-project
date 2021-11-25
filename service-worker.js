@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/blockchain-developer-bootcamp-final-project/precache-manifest.176432db99b67fcb3e4a1b2fed06248e.js"
+  "/blockchain-developer-bootcamp-final-project/precache-manifest.ff5436465f392a15171831404c03e660.js"
 );
 
 self.addEventListener('message', (event) => {
