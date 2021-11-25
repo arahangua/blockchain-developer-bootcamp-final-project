@@ -128,14 +128,18 @@ const App = () => {
   };
 
   useEffect(() => {
-    loadWeb3();
-    loadBlockchainData();
-
-
-    if (refresh === 1) {
-      setrefresh(0);
-      loadBlockchainData();
+    loadWeb3().then(loadBlockchainData())
+    
+    if(window.ethereum) {
+      window.ethereum.on('chainChanged', () => {
+        window.location.reload();
+      })
+      window.ethereum.on('accountsChanged', () => {
+        window.location.reload();
+      })
+  
       
+        
     }
 
 
