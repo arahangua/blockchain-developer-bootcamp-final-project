@@ -325,6 +325,7 @@ const App = () => {
           <div className="add_project" id="add">
             <h3>Enter a short proposal statement:</h3>
             <h3>You can propose up to # of proposals set by the owner of the contract (default is 3 per person)</h3>
+            <h3>Current limit : {num_of_allowed_proj}</h3>
 
             <form className="project_form">
               <TextField
